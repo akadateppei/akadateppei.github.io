@@ -4,7 +4,7 @@ $(function () {
     let existingCall = null;
     let audioSelect = $('#audioSource');
     let videoSelect = $('#videoSource');
-    var socket = io('http://3.133.0.248');
+    var socket = io('http://3.133.0.248:3000');
     myState = "";
     nowStreamer = "";
 
