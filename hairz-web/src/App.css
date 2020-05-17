@@ -11,7 +11,7 @@ html{
 
 body{
   height: 100vh;
-  font-family: "Bungee Outline", "Bungee Inline";
+  font-family: bungee,sans-serif;
 }
 
 
@@ -90,7 +90,9 @@ body{
 }
 
 .logo{
-  font-family: Bungee Outline;
+  font-family: bungee, sans-serif;
+  font-weight: 700;
+  font-style: normal;
   position: absolute;
   top: 30%;
   left: 50%;

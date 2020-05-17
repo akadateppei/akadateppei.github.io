@@ -49,13 +49,17 @@ class App extends React.Component<{}, mainState> {
                         zIndex: "999",
                         width: "100%"
                     }}>
-                        <BottomNavigationAction label={<h2 style={{fontFamily: "Bungee Inline"}}>home</h2>}
+                        <BottomNavigationAction label={<h2 style={{fontFamily: "bungee, sans-serif", fontWeight: "600",
+                            fontStyle: "normal"}}>home</h2>}
                                                 value='home'/>
-                        <BottomNavigationAction label={<h2 style={{fontFamily: "Bungee Inline"}}>about</h2>}
+                        <BottomNavigationAction label={<h2 style={{fontFamily: "bungee, sans-serif", fontWeight: "600",
+                            fontStyle: "normal"}}>about</h2>}
                                                 value='about'/>
-                        <BottomNavigationAction label={<h2 style={{fontFamily: "Bungee Inline"}}>member</h2>}
+                        <BottomNavigationAction label={<h2 style={{fontFamily: "bungee, sans-serif", fontWeight: "600",
+                            fontStyle: "normal"}}>member</h2>}
                                                 value={'member'}/>
-                        <BottomNavigationAction label={<h2 style={{fontFamily: "Bungee Inline"}}>blog</h2>}
+                        <BottomNavigationAction label={<h2 style={{fontFamily: "bungee, sans-serif", fontWeight: "600",
+                            fontStyle: "normal"}}>blog</h2>}
                                                 value='blog'/>
                     </BottomNavigation>
                 </Container>
