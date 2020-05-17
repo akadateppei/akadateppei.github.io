@@ -44,7 +44,7 @@ class App extends React.Component<{}, mainState> {
                     </div>
                     <BottomNavigation showLabels value={value} onChange={this.setValue} style={{
                         paddingBottom: "10px",
-                        position: "absolute",
+                        position: "fixed",
                         bottom: '0',
                         zIndex: "999",
                         width: "100%"
